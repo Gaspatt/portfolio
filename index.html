@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Matheus Gaspar — Desenvolvedor Júnior PHP, JavaScript e React de Joinville, SC." />
+  <title>Matheus Gaspar — Desenvolvedor Júnior</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="bg-grid"></div>
+
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>MG<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="nav-right">
+        <span class="nav-badge">Open to work</span>
+        <button class="nav-menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <div class="hero-tag">
+          <span class="tag-dot"></span>Disponível para contratação · Joinville, SC
+        </div>
+        <h1 class="hero-name">
+          Matheus<br><span class="hero-name-accent">Gaspar</span>
+        </h1>
+        <div class="hero-role-wrap">
+          <span class="hero-role-prefix">dev.</span>
+          <span class="typed-text" id="typed"></span><span class="cursor">_</span>
+        </div>
+        <p class="hero-desc">
+          Desenvolvo com <strong>PHP, JavaScript e React</strong> em sistemas de grande porte.
+          8 meses de experiência real, múltiplos bancos, code review e testes.
+          Graduando em Engenharia de Software.
+        </p>
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"><path d="M13 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V9z"/><polyline points="13 2 13 9 20 9"/></svg>
+            Ver projetos
+          </a>
+          <a href="Matheus-Gaspar-Curriculo-Geral.pdf" class="btn btn-outline" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Currículo PDF
+          </a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/gaspatt" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844a9.59 9.59 0 012.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/matheusgaspar29" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:matheusgaspar29.if@gmail.com" aria-label="E-mail">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="code-window">
+          <div class="code-topbar">
+            <div class="code-dots">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            </div>
+            <span class="code-filename">matheus.php</span>
+            <span class="code-lang">PHP</span>
+          </div>
+          <pre class="code-body"><code><span class="c-muted">// desenvolvedor disponível</span>
+<span class="c-kw">$dev</span> = [
+  <span class="c-key">'nome'</span>    => <span class="c-str">'Matheus Gaspar'</span>,
+  <span class="c-key">'cidade'</span>  => <span class="c-str">'Joinville, SC'</span>,
+  <span class="c-key">'stack'</span>   => [
+    <span class="c-str">'PHP'</span>, <span class="c-str">'JavaScript'</span>,
+    <span class="c-str">'React'</span>, <span class="c-str">'SQL'</span>,
+  ],
+  <span class="c-key">'banco'</span>   => [
+    <span class="c-str">'PostgreSQL'</span>,
+    <span class="c-str">'SQL Server'</span>,
+    <span class="c-str">'Oracle'</span>,
+  ],
+  <span class="c-key">'status'</span>  => <span class="c-str">'open to work'</span>,
+];
+</code></pre>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="hstat-n">8</span><span class="hstat-l">meses exp.</span></div>
+          <div class="hero-stat"><span class="hstat-n">3</span><span class="hstat-l">bancos</span></div>
+          <div class="hero-stat"><span class="hstat-n">3</span><span class="hstat-l">linguagens</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>scroll</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="section-label">01 — sobre mim</div>
+      <h2 class="section-title">Quem sou</h2>
+      <div class="sobre-grid">
+        <div class="sobre-text">
+          <p>Tenho 19 anos e sou desenvolvedor júnior de Joinville, SC. Passei 8 meses trabalhando em um produto SaaS de gestão empresarial de grande porte, onde aprendi a lidar com código legado, múltiplas versões simultâneas e bancos em produção.</p>
+          <p>Gosto de investigar a <strong>causa raiz</strong> de um problema em vez de só corrigir o sintoma, e me preocupo em entregar com testes e sem quebrar o que já funcionava.</p>
+          <p>Estou cursando Engenharia de Software à noite na Católica de Santa Catarina e procuro uma vaga onde eu possa crescer com um time e aprofundar o domínio do código.</p>
+          <div class="sobre-links">
+            <a href="https://linkedin.com/in/matheusgaspar29" target="_blank" rel="noopener" class="btn btn-sm">LinkedIn</a>
+            <a href="https://github.com/gaspatt" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">GitHub</a>
+          </div>
+        </div>
+        <div class="sobre-cards">
+          <div class="about-card">
+            <div class="about-card-icon">🎓</div>
+            <h4>Formação</h4>
+            <p>Engenharia de Software<br><span>Católica de SC · 2026–2029</span></p>
+            <p>Técnico Informática Web<br><span>IFC Araquari · 2025</span></p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">💼</div>
+            <h4>Experiência</h4>
+            <p>Desenvolvedor Júnior<br><span>SoftExpert · mar–nov 2026</span></p>
+            <p>Produto SaaS · ~1000 devs<br><span>PHP, React, 3 bancos</span></p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">🌍</div>
+            <h4>Idiomas</h4>
+            <p>Português<br><span>Nativo</span></p>
+            <p>Inglês<br><span>Intermediário</span></p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">🎯</div>
+            <h4>Buscando</h4>
+            <p>Dev júnior back-end,<br>front-end ou full stack</p>
+            <p>Joinville ou remoto<br><span>CLT ou PJ</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="section section-alt" id="stack">
+    <div class="container">
+      <div class="section-label">02 — tecnologias</div>
+      <h2 class="section-title">Stack</h2>
+      <div class="stack-grid">
+        <div class="stack-col">
+          <div class="stack-card">
+            <div class="stack-card-header">
+              <span class="stack-icon">⚙️</span>
+              <h3>Back-end</h3>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-row"><span>PHP</span><div class="bar"><div class="bar-fill" style="width:80%"></div></div></div>
+              <div class="skill-row"><span>Python</span><div class="bar"><div class="bar-fill" style="width:65%"></div></div></div>
+              <div class="skill-row"><span>Django REST</span><div class="bar"><div class="bar-fill" style="width:55%"></div></div></div>
+              <div class="skill-row"><span>Laravel</span><div class="bar"><div class="bar-fill" style="width:30%"></div></div></div>
+            </div>
+          </div>
+          <div class="stack-card">
+            <div class="stack-card-header">
+              <span class="stack-icon">🗄️</span>
+              <h3>Banco de dados</h3>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-row"><span>PostgreSQL</span><div class="bar"><div class="bar-fill" style="width:75%"></div></div></div>
+              <div class="skill-row"><span>SQL Server</span><div class="bar"><div class="bar-fill" style="width:75%"></div></div></div>
+              <div class="skill-row"><span>Oracle</span><div class="bar"><div class="bar-fill" style="width:60%"></div></div></div>
+              <div class="skill-row"><span>Liquibase</span><div class="bar"><div class="bar-fill" style="width:65%"></div></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="stack-col">
+          <div class="stack-card">
+            <div class="stack-card-header">
+              <span class="stack-icon">🖥️</span>
+              <h3>Front-end</h3>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-row"><span>JavaScript ES6+</span><div class="bar"><div class="bar-fill" style="width:78%"></div></div></div>
+              <div class="skill-row"><span>React</span><div class="bar"><div class="bar-fill" style="width:72%"></div></div></div>
+              <div class="skill-row"><span>Vue.js</span><div class="bar"><div class="bar-fill" style="width:60%"></div></div></div>
+              <div class="skill-row"><span>TypeScript</span><div class="bar"><div class="bar-fill" style="width:28%"></div></div></div>
+            </div>
+          </div>
+          <div class="stack-card">
+            <div class="stack-card-header">
+              <span class="stack-icon">🔧</span>
+              <h3>Ferramentas e práticas</h3>
+            </div>
+            <div class="tags-compact">
+              <span>Git</span><span>GitLab</span><span>Docker</span>
+              <span>Linux / WSL2</span><span>Xdebug</span><span>ESLint</span>
+              <span>Karma</span><span>REST APIs</span><span>Code review</span>
+              <span>Testes automatizados</span><span>CI/CD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIÊNCIA -->
+  <section class="section" id="experiencia">
+    <div class="container">
+      <div class="section-label">03 — onde trabalhei</div>
+      <h2 class="section-title">Experiência</h2>
+      <div class="exp-card">
+        <div class="exp-left">
+          <div class="exp-company-logo">SE</div>
+          <div class="exp-line"></div>
+        </div>
+        <div class="exp-right">
+          <div class="exp-header">
+            <div>
+              <h3>Desenvolvedor Júnior</h3>
+              <p class="exp-company">SoftExpert Software · Joinville, SC</p>
+            </div>
+            <div class="exp-meta">
+              <span class="exp-period">mar/2026 — nov/2026</span>
+              <span class="exp-type">Híbrido</span>
+            </div>
+          </div>
+          <p class="exp-desc">
+            Atuei em um produto SaaS de gestão empresarial com milhares de usuários, trabalhando em PHP, JavaScript e React em um repositório único com múltiplas linhas de versão simultâneas.
+          </p>
+          <ul class="exp-list">
+            <li>
+              <span class="exp-bullet">→</span>
+              Desenvolvimento e correção de telas em <strong>React</strong> (paginação, filtros, validação, consumo de APIs REST)
+            </li>
+            <li>
+              <span class="exp-bullet">→</span>
+              Back-end em <strong>PHP</strong> com lógica de negócio em sistema legado de grande escala
+            </li>
+            <li>
+              <span class="exp-bullet">→</span>
+              Changelogs <strong>Liquibase</strong> compatíveis entre SQL Server, PostgreSQL e Oracle
+            </li>
+            <li>
+              <span class="exp-bullet">→</span>
+              Participação em <strong>code review</strong> e cross test; portabilidade de correções entre versões (cherry-pick e backport)
+            </li>
+            <li>
+              <span class="exp-bullet">→</span>
+              Depuração com DevTools, logs e <strong>Xdebug</strong>, investigando a causa raiz antes de corrigir
+            </li>
+            <li>
+              <span class="exp-bullet">→</span>
+              Lint e testes automatizados (<strong>Karma</strong>) nos módulos afetados antes de cada entrega
+            </li>
+          </ul>
+          <div class="exp-tags">
+            <span>PHP</span><span>JavaScript</span><span>React</span>
+            <span>SQL Server</span><span>PostgreSQL</span><span>Oracle</span>
+            <span>Liquibase</span><span>Git</span><span>Docker</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="section section-alt" id="projetos">
+    <div class="container">
+      <div class="section-label">04 — o que construí</div>
+      <h2 class="section-title">Projetos</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-emoji">🍕</div>
+            <div class="project-links">
+              <a href="https://github.com/Gaspatt/Santory_Pizzaria" target="_blank" rel="noopener" class="icon-link" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844a9.59 9.59 0 012.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-label">Projeto Acadêmico · TCC IFC 2025</div>
+          <h3>Pizzaria Santory</h3>
+          <p>E-commerce full stack para pizzaria fictícia. Cardápio, carrinho, pedidos e painel administrativo. API REST com autenticação, CRUD e integração com front-end em Vue.js.</p>
+          <div class="project-stack">
+            <span class="ps vue">Vue.js</span>
+            <span class="ps python">Python</span>
+            <span class="ps django">Django REST</span>
+            <span class="ps pg">PostgreSQL</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Gaspatt/Santory_Pizzaria" target="_blank" rel="noopener" class="project-cta">Ver repositório →</a>
+          </div>
+        </article>
+
+        <article class="project-card project-wip">
+          <div class="project-top">
+            <div class="project-emoji">⚡</div>
+            <div class="project-links">
+              <span class="wip-badge">Em construção</span>
+            </div>
+          </div>
+          <div class="project-label">Portfólio pessoal · nov/2026</div>
+          <h3>Projeto Principal</h3>
+          <p>Aplicação full stack com autenticação, CRUD completo, filtros e paginação. Testes automatizados com PHPUnit e Vitest, CI/CD no GitHub Actions e deploy gratuito.</p>
+          <div class="project-stack">
+            <span class="ps laravel">Laravel</span>
+            <span class="ps react">React</span>
+            <span class="ps ts">TypeScript</span>
+            <span class="ps pg">PostgreSQL</span>
+          </div>
+          <div class="project-footer">
+            <span class="project-soon">Repositório em breve</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section" id="contato">
+    <div class="container contato-wrap">
+      <div class="section-label">05 — fale comigo</div>
+      <h2 class="section-title">Contato</h2>
+      <p class="contato-desc">Estou em busca de uma vaga de desenvolvedor júnior em Joinville ou remoto. Se quiser conversar, pode me chamar por qualquer canal.</p>
+      <div class="contato-grid">
+        <a href="mailto:matheusgaspar29.if@gmail.com" class="contato-card">
+          <div class="cc-icon">✉️</div>
+          <div>
+            <div class="cc-label">E-mail</div>
+            <div class="cc-value">matheusgaspar29.if@gmail.com</div>
+          </div>
+        </a>
+        <a href="tel:+5547988714039" class="contato-card">
+          <div class="cc-icon">📱</div>
+          <div>
+            <div class="cc-label">Telefone</div>
+            <div class="cc-value">(47) 98871-4039</div>
+          </div>
+        </a>
+        <a href="https://linkedin.com/in/matheusgaspar29" target="_blank" rel="noopener" class="contato-card">
+          <div class="cc-icon">💼</div>
+          <div>
+            <div class="cc-label">LinkedIn</div>
+            <div class="cc-value">matheusgaspar29</div>
+          </div>
+        </a>
+        <a href="https://github.com/gaspatt" target="_blank" rel="noopener" class="contato-card">
+          <div class="cc-icon">💻</div>
+          <div>
+            <div class="cc-label">GitHub</div>
+            <div class="cc-value">gaspatt</div>
+          </div>
+        </a>
+      </div>
+      <div class="contato-cv">
+        <a href="Matheus-Gaspar-Curriculo-Geral.pdf" class="btn btn-primary btn-lg" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Baixar currículo completo
+        </a>
+        <a href="Matheus-Gaspar-Portfolio.pdf" class="btn btn-outline btn-lg" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18"><path d="M13 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V9z"/><polyline points="13 2 13 9 20 9"/></svg>
+          Portfólio PDF
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="nav-logo" style="font-size:15px"><span class="logo-bracket">&lt;</span>MG<span class="logo-bracket">/&gt;</span></span>
+      <p>Matheus Gaspar · Joinville, SC · 2026</p>
+      <p class="footer-made">Feito com HTML, CSS e JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,23 +1,29 @@
-# Portfolio — Matheus Gaspar
+# Portfólio — Matheus Gaspar
 
-Site de portfólio pessoal. HTML, CSS e JavaScript puro. Sem framework, sem build step.
+Site de portfólio pessoal. Desenvolvedor Júnior | PHP · JavaScript · React
 
-## Como subir no GitHub Pages (5 minutos)
+🔗 **[gaspatt.github.io/portfolio](https://gaspatt.github.io/portfolio/)**
 
-1. Crie um repositório público no GitHub com o nome `matheusgaspar29.github.io`
-   (ou qualquer nome, mas o link fica `gaspatt.github.io/nome-do-repo`).
-2. Copie os 3 arquivos (`index.html`, `style.css`, `main.js`) para a raiz do repositório.
-3. Copie o `Matheus-Gaspar-Curriculo-Geral.pdf` também (para o botão de download funcionar).
-4. No GitHub: Settings > Pages > Source: Deploy from a branch > branch `main` > pasta `/` (root).
-5. Aguarde ~1 minuto. O site estará em `https://gaspatt.github.io/nome-do-repo/`.
-6. Cole esse link no LinkedIn (campo Website do perfil) e no currículo.
+## Sobre
 
-## O que atualizar quando tiver o projeto principal
-- Em `index.html`, localize o card "Projeto Principal" e troque o texto, adicione o link do GitHub e do deploy.
+Portfolio estático construído com HTML, CSS e JavaScript puro — sem framework, sem build step.
 
 ## Estrutura
+
 ```
 index.html   — estrutura e conteúdo
 style.css    — visual (dark mode, responsivo)
-main.js      — typed effect, menu mobile, fade-in
+main.js      — typed effect, menu mobile, scroll animations
 ```
+
+## Stack
+
+- HTML5 / CSS3 / JavaScript ES6+
+- Google Fonts (Inter, Fira Code)
+- GitHub Pages (deploy automático via branch main)
+
+## Contato
+
+- LinkedIn: [linkedin.com/in/matheusgaspar29](https://linkedin.com/in/matheusgaspar29)
+- GitHub: [github.com/gaspatt](https://github.com/gaspatt)
+- E-mail: matheusgaspar29.if@gmail.com
